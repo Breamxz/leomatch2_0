@@ -1,0 +1,41 @@
+body {
+  background-color: #556B2F;
+  height: 100vh;
+  margin: 0;
+  display: none; /* Скрываем контент по умолчанию */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  position: relative;
+  user-select: none; /* Запрещаем выделение текста */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.container {
+  position: relative;
+  display: none; /* Скрываем контейнеры страниц по умолчанию */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.button-container {
+  position: absolute;
+  top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #86be86cb;
+  border: 2px solid #034903cb;
+  border-radius: 5px;
+}
